@@ -4,6 +4,7 @@
 [![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
 [![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
 [![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
+[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
 # DeepSeek-V3
 
 [![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
