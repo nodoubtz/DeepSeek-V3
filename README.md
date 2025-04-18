@@ -1,5 +1,4 @@
-
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
+[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-23)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
