@@ -1,4 +1,4 @@
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg?branch=main)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
+[![CodeQL Advanced](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-20)](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml)
 
 # DeepSeek-V3
 
