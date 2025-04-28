@@ -1,75 +1,83 @@
 [![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-15)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
-## Introduction
-DeepSeek-V3 is a powerful tool designed to provide advanced data analysis and visualization capabilities. This project aims to simplify the process of data exploration and make it accessible to users with varying levels of expertise.
+# Nodoubtz-AI
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+
+Nodoubtz-AI is a fork of the [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) project, designed to provide advanced AI functionalities with a focus on Python implementations. This repository inherits the robust functionality of its parent while offering opportunities for further customization and enhancement.
 
 ## Features
-- Advanced data analysis algorithms
-- Interactive data visualization
-- Seamless integration with various data sources
-- User-friendly interface
 
-## Installation
-To install DeepSeek-V3, follow these steps:
+- **Language**: Written in Python for easy integration and extension.
+- **Forked from a Powerful Base**: Built on the strong foundation of DeepSeek-V3.
+- **Open Source**: Licensed under the MIT License, ensuring flexibility for developers.
+- **Customizable**: Adapt the repository to fit your unique project requirements.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7 or higher.
+- Git installed on your local machine.
+
+### Installation
 
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/nodoubtz/DeepSeek-V3.git
-    cd DeepSeek-V3
-    ```
+   ```bash
+   git clone https://github.com/nodoubtz/Nodoubtz-AI.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Nodoubtz-AI
+   ```
+3. Install required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-2. Install the required dependencies:
-    ```bash
-    npm install
-    ```
+### Usage
 
-## Usage
-To start using DeepSeek-V3, run the following command:
-```bash
-npm start
-```
-This will launch the application, and you can access it through your web browser at `http://localhost:3000`.
+1. Ensure all prerequisites are installed.
+2. Run the main script:
+   ```bash
+   python main.py
+   ```
+3. Explore the functionalities as per your requirements.
 
 ## Contributing
-We welcome contributions from the community. If you want to contribute to DeepSeek-V3, please follow these steps:
+
+Contributions are welcome! Please fork the repository and submit a pull request for any features, fixes, or improvements.
+
+### Steps to Contribute:
 
 1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-branch
-    ```
-3. Make your changes and commit them:
-    ```bash
-    git commit -m "Description of your changes"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-branch
-    ```
-5. Create a pull request.
+2. Create a new branch for your feature:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Description of the feature"
+   ```
+4. Push to your forked repository:
+   ```bash
+   git push origin feature-name
+   ```
+5. Open a pull request on the original repository.
 
 ## License
-DeepSeek-V3 is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
-## Acknowledgements
-We would like to thank the following contributors for their efforts:
-- [nodoubtz](https://github.com/nodoubtz)
-- [mowentian](https://github.com/mowentian)
-- [GeeeekExplorer](https://github.com/GeeeekExplorer)
-- [DeepSeekDDM](https://github.com/DeepSeekDDM)
-- [enochkan](https://github.com/enochkan)
-- [Konano](https://github.com/Konano)
-- [zhyncs](https://github.com/zhyncs)
-- [Dhie-boop](https://github.com/Dhie-boop)
-- [simon-mo](https://github.com/simon-mo)
-- [stack-heap-overflow](https://github.com/stack-heap-overflow)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-For more contributors, visit the [Contributors Page](https://github.com/nodoubtz/DeepSeek-V3/graphs/contributors).
+## Acknowledgments
+
+This project is a fork of [DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3). Special thanks to the original authors for their foundational work.
+
+## Contact
+
+For more information, visit the project homepage: [Nodoubtz-AI Homepage](https://www.nodoubtz.com).
+
+---
+
