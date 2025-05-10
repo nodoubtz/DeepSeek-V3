@@ -1,6 +1,4 @@
-<!-- markdownlint-disable first-line-h1 -->
-<!-- markdownlint-disable html -->
-<!-- markdownlint-disable no-duplicate-header -->
+[![CodeQL Advanced](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-15)](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml)
 
 <div align="center">
   <img src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/logo.svg?raw=true" width="60%" alt="DeepSeek-V3" />
