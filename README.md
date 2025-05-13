@@ -1,6 +1,18 @@
+nodoubtz-patch-26
+[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-23)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+=======
 [![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-15)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
 
 # Nodoubtz-AI
+Nodoubtz2
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
