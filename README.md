@@ -62,7 +62,7 @@ We welcome contributions to make Nodoubtz-AI better! To contribute, please follo
 
 ## License
 
-[Insert license information here, e.g., MIT License]
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Support
 
