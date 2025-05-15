@@ -32,7 +32,7 @@ To set up the project locally, follow these steps:
 
 To start using Nodoubtz-AI, execute the following command:
 ```bash
-[Insert command, e.g., python main.py]
+python main.py
 ```
 
 ### Example
