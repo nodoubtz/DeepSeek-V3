@@ -25,7 +25,7 @@ To set up the project locally, follow these steps:
    ```
 3. Install the dependencies:
    ```bash
-   [Insert command, e.g., pip install -r requirements.txt]
+   pip install -r requirements.txt
    ```
 
 ## Usage
