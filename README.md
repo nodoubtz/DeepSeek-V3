@@ -70,4 +70,4 @@ If you encounter any issues, feel free to open a new issue in the repository or 
 
 ## Acknowledgments
 
-[Insert acknowledgments, if any]
+We would like to thank all contributors and supporters of the Nodoubtz-AI project for their valuable input and assistance.
