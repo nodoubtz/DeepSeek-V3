@@ -1,67 +1,40 @@
-<!-- markdownlint-disable first-line-h1 -->
-<!-- markdownlint-disable html -->
-<!-- markdownlint-disable no-duplicate-header -->
-
-<div align="center">
-  <img src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/logo.svg?raw=true" width="60%" alt="DeepSeek-V3" />
-</div>
-<hr>
-<div align="center" style="line-height: 1;">
-  <a href="https://www.deepseek.com/"><img alt="Homepage"
-    src="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/badge.svg?raw=true"/></a>
-  <a href="https://chat.deepseek.com/"><img alt="Chat"
-    src="https://img.shields.io/badge/🤖%20Chat-DeepSeek%20V3-536af5?color=536af5&logoColor=white"/></a>
-  <a href="https://huggingface.co/deepseek-ai"><img alt="Hugging Face"
-    src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-DeepSeek%20AI-ffc107?color=ffc107&logoColor=white"/></a>
-  <br>
-  <a href="https://discord.gg/Tc7c45Zzu5"><img alt="Discord"
-    src="https://img.shields.io/badge/Discord-DeepSeek%20AI-7289da?logo=discord&logoColor=white&color=7289da"/></a>
-  <a href="https://github.com/deepseek-ai/DeepSeek-V2/blob/main/figures/qr.jpeg?raw=true"><img alt="Wechat"
-    src="https://img.shields.io/badge/WeChat-DeepSeek%20AI-brightgreen?logo=wechat&logoColor=white"/></a>
-  <a href="https://twitter.com/deepseek_ai"><img alt="Twitter Follow"
-    src="https://img.shields.io/badge/Twitter-deepseek_ai-white?logo=x&logoColor=white"/></a>
-  <br>
-  <a href="https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-CODE"><img alt="Code License"
-    src="https://img.shields.io/badge/Code_License-MIT-f5de53?&color=f5de53"/></a>
-  <a href="https://github.com/deepseek-ai/DeepSeek-V3/blob/main/LICENSE-MODEL"><img alt="Model License"
-    src="https://img.shields.io/badge/Model_License-Model_Agreement-f5de53?&color=f5de53"/></a>
-  <br>
-  <a href="https://arxiv.org/pdf/2412.19437"><b>Paper Link</b>👁️</a>
-</div>
-
-## Table of Contents
-
-1. [Introduction](#1-introduction)
-2. [Model Summary](#2-model-summary)
-3. [Model Downloads](#3-model-downloads)
-4. [Evaluation Results](#4-evaluation-results)
-5. [Chat Website & API Platform](#5-chat-website--api-platform)
-6. [How to Run Locally](#6-how-to-run-locally)
-7. [License](#7-license)
-8. [Citation](#8-citation)
-9. [Contact](#9-contact)
+[![CodeQL Advanced](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-20)](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml)
 
 
-## 1. Introduction
+# Nodoubtz-AI
 
-We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token. 
-To achieve efficient inference and cost-effective training, DeepSeek-V3 adopts Multi-head Latent Attention (MLA) and DeepSeekMoE architectures, which were thoroughly validated in DeepSeek-V2. 
-Furthermore, DeepSeek-V3 pioneers an auxiliary-loss-free strategy for load balancing and sets a multi-token prediction training objective for stronger performance. 
-We pre-train DeepSeek-V3 on 14.8 trillion diverse and high-quality tokens, followed by Supervised Fine-Tuning and Reinforcement Learning stages to fully harness its capabilities. 
-Comprehensive evaluations reveal that DeepSeek-V3 outperforms other open-source models and achieves performance comparable to leading closed-source models.
-Despite its excellent performance, DeepSeek-V3 requires only 2.788M H800 GPU hours for its full training.
-In addition, its training process is remarkably stable. 
-Throughout the entire training process, we did not experience any irrecoverable loss spikes or perform any rollbacks. 
-<p align="center">
-  <img width="80%" src="figures/benchmark.png">
-</p>
+Nodoubtz-AI is an advanced artificial intelligence project designed to streamline decision-making processes and provide predictive analytics. This repository contains the core components and functionalities necessary to enable businesses to make data-driven decisions and improve operational efficiency.
 
-## 2. Model Summary
+## Features
 
----
+- **Feature 1**: Advanced natural language processing capabilities to analyze and generate human-like text.
+- **Feature 2**: Provides real-time predictive analytics to assist in decision-making processes.
+- **Feature 3**: [Brief description of the feature]
 
-**Architecture: Innovative Load Balancing Strategy and Training Objective**
+## Installation
 
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/nodoubtz/Nodoubtz-AI.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd Nodoubtz-AI
+   ```
+3. Install the dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+
+nodoubtz-patch-25
+To start using Nodoubtz-AI, execute the following command:
+```bash
+python main.py
+=======
 - On top of the efficient architecture of DeepSeek-V2, we pioneer an auxiliary-loss-free strategy for load balancing, which minimizes the performance degradation that arises from encouraging load balancing.
 -  We investigate a Multi-Token Prediction (MTP) objective and prove it beneficial to model performance. 
     It can also be used for speculative decoding for inference acceleration. 
@@ -294,37 +267,51 @@ Then you can chat with DeepSeek-V3:
 
 ```shell
 torchrun --nnodes 2 --nproc-per-node 8 --node-rank $RANK --master-addr $ADDR generate.py --ckpt-path /path/to/DeepSeek-V3-Demo --config configs/config_671B.json --interactive --temperature 0.7 --max-new-tokens 200
+nodoubtz-patch-22
 ```
 
-Or batch inference on a given file:
-
-```shell
-torchrun --nnodes 2 --nproc-per-node 8 --node-rank $RANK --master-addr $ADDR generate.py --ckpt-path /path/to/DeepSeek-V3-Demo --config configs/config_671B.json --input-file $FILE
+### Example
+Below is an example of how to use Nodoubtz-AI to run the main script and analyze data:
+```bash
+python main.py --input data/input_file.csv --output results/output_file.csv
 ```
 
-### 6.2 Inference with SGLang (recommended)
+## Contribution Guidelines
 
-[SGLang](https://github.com/sgl-project/sglang) currently supports [MLA optimizations](https://lmsys.org/blog/2024-09-04-sglang-v0-3/#deepseek-multi-head-latent-attention-mla-throughput-optimizations), [DP Attention](https://lmsys.org/blog/2024-12-04-sglang-v0-4/#data-parallelism-attention-for-deepseek-models), FP8 (W8A8), FP8 KV Cache, and Torch Compile, delivering state-of-the-art latency and throughput performance among open-source frameworks.
+We welcome contributions to make Nodoubtz-AI better! To contribute, please follow these steps:
 
-Notably, [SGLang v0.4.1](https://github.com/sgl-project/sglang/releases/tag/v0.4.1) fully supports running DeepSeek-V3 on both **NVIDIA and AMD GPUs**, making it a highly versatile and robust solution.
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
+3. Commit your changes:
+   ```bash
+   git commit -m "Add feature"
+   ```
+4. Push to your branch:
+   ```bash
+   git push origin feature-name
+   ```
+5. Create a Pull Request.
 
-SGLang also supports [multi-node tensor parallelism](https://github.com/sgl-project/sglang/tree/main/benchmark/deepseek_v3#example-serving-with-2-h208), enabling you to run this model on multiple network-connected machines.
+## License
 
-Multi-Token Prediction (MTP) is in development, and progress can be tracked in the [optimization plan](https://github.com/sgl-project/sglang/issues/2591).
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Here are the launch instructions from the SGLang team: https://github.com/sgl-project/sglang/tree/main/benchmark/deepseek_v3
+## Support
 
-### 6.3 Inference with LMDeploy (recommended)
-[LMDeploy](https://github.com/InternLM/lmdeploy), a flexible and high-performance inference and serving framework tailored for large language models, now supports DeepSeek-V3. It offers both offline pipeline processing and online deployment capabilities, seamlessly integrating with PyTorch-based workflows.
-
-For comprehensive step-by-step instructions on running DeepSeek-V3 with LMDeploy, please refer to here: https://github.com/InternLM/lmdeploy/issues/2960
-
-
-### 6.4 Inference with TRT-LLM (recommended)
-
+nodoubtz-patch-25
+If you encounter any issues, feel free to open a new issue in the repository or contact [Insert contact information, if applicable].
+=======
 [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) now supports the DeepSeek-V3 model, offering precision options such as BF16 and INT4/INT8 weight-only. Support for FP8 is currently in progress and will be released soon. You can access the custom branch of TRTLLM specifically for DeepSeek-V3 support through the following link to experience the new features directly: https://github.com/NVIDIA/TensorRT-LLM/tree/main/examples/deepseek_v3. 
+nodoubtz-patch-22
 
+## Acknowledgments
 
+nodoubtz-patch-25
+We would like to thank all contributors and supporters of the Nodoubtz-AI project for their valuable input and assistance.
+=======
 ### 6.5 Inference with vLLM (recommended)
 
 [vLLM](https://github.com/vllm-project/vllm) v0.6.6 supports DeepSeek-V3 inference for FP8 and BF16 modes on both NVIDIA and AMD GPUs. Aside from standard techniques, vLLM offers _pipeline parallelism_ allowing you to run this model on multiple machines connected by networks. For detailed guidance, please refer to the [vLLM instructions](https://docs.vllm.ai/en/latest/serving/distributed_serving.html). Please feel free to follow [the enhancement plan](https://github.com/vllm-project/vllm/issues/11539) as well.
@@ -359,3 +346,4 @@ This code repository is licensed under [the MIT License](LICENSE-CODE). The use 
 
 ## 9. Contact
 If you have any questions, please raise an issue or contact us at [service@deepseek.com](service@deepseek.com).
+nodoubtz-patch-22
