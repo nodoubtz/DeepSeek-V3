@@ -271,9 +271,9 @@ nodoubtz-patch-22
 ```
 
 ### Example
-Provide examples of how to use the application, e.g.:
+Below is an example of how to use Nodoubtz-AI to run the main script and analyze data:
 ```bash
-[Insert example usage]
+python main.py --input data/input_file.csv --output results/output_file.csv
 ```
 
 ## Contribution Guidelines
