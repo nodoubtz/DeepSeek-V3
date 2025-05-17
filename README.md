@@ -1,13 +1,4 @@
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
-# DeepSeek-V3
-
-[![CodeQL Advanced](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml/badge.svg)](https://github.com/nodoubtz/DeepSeek-V3/actions/workflows/codeql.yml)
+[![CodeQL Advanced](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml/badge.svg?branch=nodoubtz-patch-24)](https://github.com/nodoubtz/Nodoubtz-AI/actions/workflows/codeql.yml)
 
 ## Table of Contents
 - [Introduction](#introduction)
